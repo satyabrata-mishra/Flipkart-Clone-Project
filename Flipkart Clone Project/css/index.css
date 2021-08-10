@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.anime{
+    background-color: black;
+    height: 0.5vh;
+    width: 0vw;
+    animation: ani 2s ease-in-out  1 ;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+}
+@keyframes ani {
+    from{
+        width: 0vw;
+    }
+    to{
+        width: 100vw;
+    }
+}
+.copy{
+    height: 10vh;
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    height: 10vh;
+    background-color: #2874f0;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 65px;
+    background-color:#2874f0;
+}
+.sea{
+    position: relative;
+    right: 60px;
+    color: #2874f0;
+}
+.login{
+    position: relative;
+    left: 160px;
+    height: 5vh;
+    width: 8vw;
+    font-size: 20px;
+    color: #2874f0;
+}
+.login a{
+    text-decoration: none;
+}
+nav ul{
+    height: 65px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color:whitesmoke;
+    text-decoration: none;
+    font-family: 'Teko', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+.search{
+    height: 40px;
+    width: 610px;
+    border-radius: 5px;
+}
+.contain{
+    height: 210vh;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    height: 57vh;
+}
+.slider img{
+    width: 75vw;
+    height: 55vh;
+    margin: 1vh 0;
+}
+h1{
+    font-size: 30px;
+    color:black;
+    text-align: left;
+    margin: 2px 0px;
+}
+.item{
+    height: 38vh;
+    display: flex;
+    justify-content: space-between;
+}
+.item img{
+    height: 225px;
+    width: 160px;
+}
+.itemd{
+    display: flex;
+    justify-content: space-between;
+}
+.p{
+    color: green;
+}
+.itemphone{
+    margin-top: 5vh;
+    margin-bottom: -15vh;
+    height: 38vh;
+    display: flex;
+    justify-content: space-around;
+}
+.itemd1{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
