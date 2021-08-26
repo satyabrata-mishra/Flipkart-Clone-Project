@@ -5,7 +5,7 @@
 }
 .anime{
     background-color: black;
-    height: 0.5vh;
+    height: 0.3vh;
     width: 0vw;
     animation: ani 2s ease-in-out  1 ;
 }
