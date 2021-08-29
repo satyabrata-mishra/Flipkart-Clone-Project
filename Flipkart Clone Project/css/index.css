@@ -7,7 +7,7 @@
     background-color: black;
     height: 0.3vh;
     width: 0vw;
-    animation: ani 2s ease-in-out  1 ;
+    animation: ani 1.5s ease-in-out  1 ;
 }
 .logo img{
     height: 60px;
